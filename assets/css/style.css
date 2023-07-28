@@ -570,7 +570,7 @@ section {
 
 
 .clients .icon-box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -621,19 +621,13 @@ section {
 }
 
 .clients .title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .clients .title a {
   color: #425451;
-}
-
-.clients .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
 }
 
 .clients .icon-box:hover .title a,
