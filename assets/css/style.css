@@ -408,6 +408,7 @@ h6 {
   position: relative;
   object-fit: cover;
   width: 100%;
+  filter: grayscale(100);
 }
 
 #hero .container {
