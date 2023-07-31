@@ -569,6 +569,17 @@ section {
 }
 
 
+.clients img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  opacity: 1;
+}
+
 .clients .icon-box {
   padding: 10px 20px 3px;
   position: relative;
@@ -623,7 +634,7 @@ section {
 .clients .title {
   font-weight: 600;
   margin-bottom: 15px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .clients .title a {
