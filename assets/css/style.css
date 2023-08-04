@@ -397,12 +397,13 @@ h6 {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 300px;
   position: relative;
-  padding: 160px 0 80px 0;
+  padding: 0 0 80px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #FBDB2E;
 }
 
 .hero video {
@@ -414,6 +415,7 @@ h6 {
   -o-object-fit: cover;
   object-fit: cover;
   z-index: 1;
+  background: #FBDB2E;
 }
 
 .hero .container {
