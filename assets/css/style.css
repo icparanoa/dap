@@ -397,12 +397,11 @@ h6 {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  height: 700px;
+  height: 650px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FBDB2E;
 }
 
 .hero video {
@@ -413,19 +412,6 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  z-index: 1;
-}
-
-.hero .container {
-  position: relative;
-  align-items: center;
-  z-index: 1;
-}
-
-.hero .container img {
-  justify-content: center;
-  align-items: center;
-  position: absolute;
 }
 
 @media (max-width: 768px) {
