@@ -752,14 +752,15 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #fdd020;
+  color: #151515;
+  background: #fdd020;
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
-  color: #151515;
+  background: #07d800;
+  border-color: #07d800;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
