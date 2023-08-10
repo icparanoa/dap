@@ -402,6 +402,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: content-box;
 }
 
 .hero video {
@@ -518,6 +519,8 @@ section {
 
 
 .clients img {
+  width: 135px;
+  height: 135px;
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
