@@ -532,8 +532,6 @@ section {
 
 
 .clients img {
-  width: 135px;
-  height: 135px;
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
